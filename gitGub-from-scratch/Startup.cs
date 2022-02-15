@@ -32,7 +32,7 @@ namespace gitGub_from_scratch
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello first change!");
                 });
             });
         }
